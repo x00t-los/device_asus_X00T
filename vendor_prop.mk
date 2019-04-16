@@ -254,3 +254,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # ZRAM disk
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.config.zram=true
+    
+# PROPERTIES For Native Video call
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.vt_avail_ovr=1
+    persist.dbg.wfc_avail_ovr=1
